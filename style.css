@@ -1,0 +1,31 @@
+body{
+    background-color: greenyellow;
+}
+
+h1{
+    color: darkcyan;
+    background-color: crimson;
+}
+
+#showsketch{
+    float: right;
+    margin-top: 2px;
+}
+
+p{
+    font-size: 18px;
+}
+
+canvas{
+border: 5px double mediumspringgreen;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px darkturquoise;}
+    to{box-shadow: 1px 1px 38px mediumblue;}
+}
+
